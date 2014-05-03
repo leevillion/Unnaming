@@ -34,4 +34,4 @@ driver.click("css$#kw");
 
 浏览器的启动参数在config.xml中配，如谷歌浏览启动时最大化  
 
-<parameter name="–start-maximized"></parameter>
+\<parameter name="–start-maximized"><\/parameter>
