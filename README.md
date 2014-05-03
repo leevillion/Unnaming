@@ -24,7 +24,7 @@ driver.quit();
 
 ####一些约定  
 
-元素定位器默认采用xpath，若想使用id,name等定位需使用如下形式  
+元素定位器默认采用xpath，若想使用id,name等定位需使用如下形,定位器用"$"分开
 
 driver.click("id$kw");  
 
@@ -35,3 +35,7 @@ driver.click("css$#kw");
 浏览器的启动参数在config.xml中配，如谷歌浏览启动时最大化  
 
 \<parameter name="–start-maximized"> \</parameter>
+
+####jar包  
+
+jar包中包含了框架所需的jar包以及打包好的框架架包，可以直接导入使用
