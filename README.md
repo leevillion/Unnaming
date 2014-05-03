@@ -15,7 +15,7 @@ driver.get("http://www.baidu.com");
 
 搜索seleniulm  
 
-driver.submit("id$kw","搜索selenium",10,"selenium");  
+driver.submit("//input[@id='kw']","搜索selenium",10,"selenium");  
 
 退出driver  
 driver.quit();  
