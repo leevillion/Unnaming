@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<base>
+		<timeout>10</timeout>
+		<url>baidu.com</url>
+	</base>
+	<browser>
+		<chrome>
+			<parameter name="–start-maximized"></parameter>
+			<parameter name="--user-agent="></parameter>
+		</chrome>
+		<firefox>
+			<profile></profile>
+			<path>D:\\Program Files\\firefox\\firefox.exe</path>
+		</firefox>
+		<ie>
+			<ignoreProtectedModeSettings>true</ignoreProtectedModeSettings>
+		</ie>
+	</browser>
+</config>

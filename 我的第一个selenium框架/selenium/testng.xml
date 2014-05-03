@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="TestAll">
+	<listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+	</listeners>
+	<test name="order">
+		<classes>
+			<class name="com.zlshuo.selenium.nonaming.test.Try" />
+		</classes>
+	</test>
+</suite>
