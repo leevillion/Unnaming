@@ -1416,4 +1416,12 @@ public class DriverInstance implements IWindowOperation,IElementOperation
 		// TODO Auto-generated method stub
 		return windowOperation.findElement(locator);
 	}
+
+	/**
+	 * @Description: ÍË³öËùÓÐframe
+	 */
+	public void exitAllFrame() {
+		// TODO Auto-generated method stub
+		windowOperation.exitAllFrame();
+	}
 }

@@ -540,4 +540,12 @@ public class WindowOperation extends FindElementInTimeout implements IWindowOper
 		return getElement(locator,timeout);
 	}
 
+	/**
+	 * @Description: 
+	 */
+	public void exitAllFrame() {
+		// TODO Auto-generated method stub
+		driver.switchTo().defaultContent();
+	}
+
 }

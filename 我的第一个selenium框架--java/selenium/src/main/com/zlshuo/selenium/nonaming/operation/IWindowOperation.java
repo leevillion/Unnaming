@@ -81,4 +81,5 @@ public interface IWindowOperation extends WebDriver{
 	
 	public WebElement findElement(String locator);
 	
+	public void exitAllFrame();
 }
