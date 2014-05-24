@@ -20,7 +20,6 @@ public class CreateChromeDriver implements ICreateDriver{
 	private ArrayList<String> attritubes;
 	private ArrayList<String> values;
 	private ArrayList<String> options=new ArrayList<String> ();
-	//private String options="";
 	
 	public WebDriver createDriver() {
 		

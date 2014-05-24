@@ -16,5 +16,9 @@
 		<ie>
 			<ignoreProtectedModeSettings>true</ignoreProtectedModeSettings>
 		</ie>
+		<RemoteWebDriver>
+			<proxy>127.0.0.1</proxy>
+			<proxyBrowser>chrome</proxyBrowser>
+		</RemoteWebDriver>
 	</browser>
 </config>
